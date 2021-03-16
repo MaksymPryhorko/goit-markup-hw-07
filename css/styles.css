@@ -668,13 +668,6 @@ footer {
   margin-top: 50px;
 }
 
-.portfolio__works-item {
-  width: 370px;
-  height: 404px;
-  margin-left: 30px;
-  margin-top: 30px;
-}
-
 .portfolio__buttons-item:not(:first-child) {
   margin-left: 8px;
 }

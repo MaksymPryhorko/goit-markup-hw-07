@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/modern-normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
     <header class="page-header">
@@ -15,9 +15,9 @@
             <nav class="page-header__site-nav">
                 <a href="#" class="logo-webstudio">Web<span class="logo-webstudio__studio">Studio</span></a>
                 <ul class="nav-list">
-                    <li class="nav-list__item"><a class="nav-list__link nav-list__link--current"
+                    <li class="nav-list__item"><a class="nav-list__link"
                             href="./index.html">Студия</a></li>
-                    <li class="nav-list__item"><a class="nav-list__link" href="./portfolio.html">Портфолио</a></li>
+                    <li class="nav-list__item"><a class="nav-list__link  nav-list__link--current" href="./portfolio.html">Портфолио</a></li>
                     <li class="nav-list__item"><a class="nav-list__link" href="#contacts">Контакты</a></li>
                 </ul>
             </nav>
@@ -42,7 +42,7 @@
     <main>
         <section class="portfolio">
             <h1 class="visually-hidden">Примеры наших работ</h1>
-                <div class="container--flex portfolio_buttons-container">
+                <div class="container--flex portfolio__buttons-container">
                     <ul class="portfolio__buttons-list">
                         <li class="portfolio__buttons-item">
                             <button class="portfolio__buttons" type="button">Все</button>
@@ -61,12 +61,12 @@
                         </li>
                     </ul>
                 </div>
-                <div class="container--flex portfolio_sites-container">
+                <div class="container--no-flex portfolio__sites-container--position">
                     <ul class="portfolio__works-list">
                         <li class="portfolio__works-item">
                             <div class="portfolio__photos-container">
                                 <img src="./images/technokryak.jpg" alt="img">
-                                <div class="portfolio__info-container">
+                                <div class="portfolio__info-container"> 
                                     <p class="portfolio__info-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
                                     шпионажа и атак на защищённые сервера конкурентов.</p>
                                 </div>
@@ -207,7 +207,7 @@
                 <ul class="social-networks__list">
                     <li class="social-networks__item">
                         <a class="social-networks__link social-networks__link--background-grey" href="#">
-                            <svg class="social-networks__icon" width="20px" height="20px">
+                            <svg class="social-networks__icon--white" width="20px" height="20px">
                                 <use href="./images/icons.svg#icon-instagram">
                                 </use>
                             </svg>
@@ -215,7 +215,7 @@
                     </li>
                     <li class="social-networks__item">
                         <a class="social-networks__link social-networks__link--background-grey" href="#">
-                            <svg class="social-networks__icon" width="20px" height="20px">
+                            <svg class="social-networks__icon--white" width="20px" height="20px">
                                 <use href="./images/icons.svg#icon-twitter">
                                 </use>
                             </svg>
@@ -223,7 +223,7 @@
                     </li>
                     <li class="social-networks__item">
                         <a class="social-networks__link social-networks__link--background-grey" href="#">
-                            <svg class="social-networks__icon" width="20px" height="20px">
+                            <svg class="social-networks__icon--white" width="20px" height="20px">
                                 <use href="./images/icons.svg#icon-facebook">
                                 </use>
                             </svg>
@@ -231,7 +231,7 @@
                     </li>
                     <li class="social-networks__item">
                         <a class="social-networks__link social-networks__link--background-grey" href="#">
-                            <svg class="social-networks__icon" width="20px" height="20px">
+                            <svg class="social-networks__icon--white" width="20px" height="20px">
                                 <use href="./images/icons.svg#icon-linkedin">
                                 </use>
                             </svg>
