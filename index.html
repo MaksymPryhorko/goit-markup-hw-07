@@ -14,7 +14,7 @@
 </head>
 <body>
     <header class="page-header">
-        <div class="container">
+        <div class="container--flex">
             <nav class="page-header__site-nav">
                 <a href="#" class="logo-webstudio">Web<span class="logo-webstudio__studio">Studio</span></a>
                 <ul class="nav-list">
@@ -43,13 +43,13 @@
     </header>
     <main>
         <section class="main-section">
-            <div class="cont-size">
+            <div class="container--no-flex">
                 <h1 class="main-section__title">Эффективные решения <br>для вашего бизнеса</h1>
                 <button class="main-button" data-modal-open>Заказать услугу</button>
             </div>
         </section>
         <section class="advantages">
-            <div class="container">
+            <div class="container--flex">
                 <h2 class="visually-hidden">Наши преимущества</h2>
                 <ul class="advantages__list">
                     <li class="advantages__item">
@@ -94,10 +94,10 @@
             </div>
         </section>
         <section class="studio" id="studio">
-            <div class="cont-size">
+            <div class="container--no-flex">
                 <h2 class="studio__title">Чем мы занимаемся</h2>
             </div>
-            <div class="container studio__container">
+            <div class="container--flex studio__container">
                     <ul class="studio__list">
                         <li class="studio__item">
                             <img src="./images/photo1.jpg" alt="img" width="370">
@@ -121,10 +121,10 @@
             </div>
         </section>
         <section class="team"  id="portfolio">
-            <div class="cont-size">
+            <div class="container--no-flex">
                 <h2 class="team__title">Наша команда</h2>
             </div>
-            <div class="container team__container">
+            <div class="container--flex team__container">
                     <ul class="team__list">
                         <li  class="team__item">
                             <img src="./images/productdesigner.jpg" alt="img" width="270">
@@ -294,10 +294,10 @@
             </div>
         </section>
         <section class="clients">
-            <div class="cont-size">
+            <div class="container--no-flex">
                 <h2 class="clients__title">Постоянные клиенты</h2>
             </div>
-            <div class="container clients__container">
+            <div class="container--flex clients__container">
                 <ul class= "clients__list">
                     <li class="clients__item">
                         <a class="clients__link" href="#">
@@ -399,52 +399,52 @@
         </div>
     </main>
     <footer class="footer" id="contacts">
-        <div class="cont-size footer__cont-size">
-                    <div>
-                        <a href="#" class="logo-webstudio">Web<span class="logo-webstudio__studio-footer">Studio</span></a>
-                        <address class="footer__address">
-                            <a class="footer__link-address" href="#">г. Киев, пр-т Леси Украинки, 26</a><br>
-                            <a class="footer__link-contact" href="mailto:info@example.com">info@example.com</a><br>
-                            <a class="footer__link-contact" href="tel:+380991111111">+38 099 111 11 11</a>
-                        </address>
-                    </div>
-                    <div class="footer__container">
-                        <p class="footer__titles">присоединяйтесь</p>
-                                <ul class="social-networks__list">
-                                    <li class="social-networks__item">
-                                        <a class="social-networks__link social-networks__link--background-grey" href="#">
-                                            <svg class="social-networks__icon" width="20px" height="20px">
-                                                <use href="./images/icons.svg#icon-instagram">
-                                                </use>
-                                            </svg>
-                                        </a>
-                                    </li>
-                                    <li class="social-networks__item">
-                                        <a class="social-networks__link social-networks__link--background-grey" href="#">
-                                            <svg class="social-networks__icon" width="20px" height="20px">
-                                                <use href="./images/icons.svg#icon-twitter">
-                                                </use>
-                                            </svg>
-                                        </a>
-                                    </li>
-                                    <li class="social-networks__item">
-                                        <a class="social-networks__link social-networks__link--background-grey" href="#">
-                                            <svg class="social-networks__icon" width="20px" height="20px">
-                                                <use href="./images/icons.svg#icon-facebook">
-                                                </use>
-                                            </svg>
-                                        </a>
-                                    </li>
-                                    <li class="social-networks__item">
-                                        <a class="social-networks__link social-networks__link--background-grey" href="#">
-                                            <svg class="social-networks__icon" width="20px" height="20px">
-                                                <use href="./images/icons.svg#icon-linkedin">
-                                                </use>
-                                            </svg>
-                                        </a>
-                                    </li>
-                                </ul>
-                    </div>
+        <div class="container--flex footer__container--position">
+            <div>
+                <a href="#" class="logo-webstudio">Web<span class="logo-webstudio__studio-footer">Studio</span></a>
+                <address class="footer__address">
+                    <a class="footer__link-address" href="#">г. Киев, пр-т Леси Украинки, 26</a><br>
+                    <a class="footer__link-contact" href="mailto:info@example.com">info@example.com</a><br>
+                    <a class="footer__link-contact" href="tel:+380991111111">+38 099 111 11 11</a>
+                </address>
+            </div>
+            <div class="footer__container">
+                <p class="footer__titles">присоединяйтесь</p>
+                <ul class="social-networks__list">
+                    <li class="social-networks__item">
+                        <a class="social-networks__link social-networks__link--background-grey" href="#">
+                            <svg class="social-networks__icon--white" width="20px" height="20px">
+                                <use href="./images/icons.svg#icon-instagram">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-networks__item">
+                        <a class="social-networks__link social-networks__link--background-grey" href="#">
+                            <svg class="social-networks__icon--white" width="20px" height="20px">
+                                <use href="./images/icons.svg#icon-twitter">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-networks__item">
+                        <a class="social-networks__link social-networks__link--background-grey" href="#">
+                            <svg class="social-networks__icon--white" width="20px" height="20px">
+                                <use href="./images/icons.svg#icon-facebook">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-networks__item">
+                        <a class="social-networks__link social-networks__link--background-grey" href="#">
+                            <svg class="social-networks__icon--white" width="20px" height="20px">
+                                <use href="./images/icons.svg#icon-linkedin">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
             <form class="form-subscribe" name="js-speaker-form" autocomplete="on">
                 <p class="footer__titles">подпишитесь на рассылку</p>
                 <div class="form-subscribe__container">
@@ -454,6 +454,6 @@
             </form>
         </div>
     </footer>
-    <script src="./js/modal.js"></script>`
+    <script src="./js/modal.js"></script>
 </body>
 </html>
